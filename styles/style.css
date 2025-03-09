@@ -10,13 +10,26 @@ body{
     color: #F6F6F6;
 }
 
+.header{
+    padding: 2% 0% 0% 8%;
+}
 
-.titulo-destaque {
-    color: #22D4FD; ;
+.header_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header_menu_link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+    
 }
 
 .presentacion {
-    margin: 6% 8%;
+    padding: 5% 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,6 +45,10 @@ body{
 .presentacion__contenido__titulo{
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
 }
 
 .presentacion__contenido__texto{
@@ -82,5 +99,5 @@ footer{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 400px;
+    font-weight: 400;
 }
