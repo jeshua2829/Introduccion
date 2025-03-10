@@ -31,7 +31,7 @@ body{
 }
 
 .header_menu_link{
-    font-family: var(--fuente-montserrat)
+    font-family: var(--fuente-montserrat);
     font-size: 24px;
     font-weight: 600;
     color: var(--color-terciario);
